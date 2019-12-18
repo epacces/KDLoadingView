@@ -10,4 +10,4 @@ let package = Package(name: libName,
                                           targets: [libName])],
                       targets: [.target(name: libName,
                                         path: "Sources")],
-                      swiftLanguageVersions: [.v4])
+                      swiftLanguageVersions: [.v4_2])
