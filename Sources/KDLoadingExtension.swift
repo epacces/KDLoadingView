@@ -6,6 +6,8 @@
 //  Copyright © 2017 Kaique Damato. All rights reserved.
 //
 
+import UIKit
+
 extension KDLoadingView {
     
     public class func animate(blurStyle: UIBlurEffect.Style = .light, lineWidth: CGFloat = 2.0, size: CGFloat = 25, duration: CGFloat = 3.0, firstColor: UIColor? = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), secondColor: UIColor? = nil, thirdColor: UIColor? = nil) {
